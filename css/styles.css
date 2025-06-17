@@ -1,0 +1,55 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #fff;
+}
+/* Header start */
+.header {
+  background-color: #92d6b3;
+}
+.header-logo-link {
+}
+.header-logo-link-image {
+}
+.header-logo-link-image:hover {
+  background-color: #74be99;
+  border-radius: 10px;
+}
+.navigation-list {
+}
+.navigation-list-item {
+}
+.navigation-list-item-link {
+}
+.navigation-address {
+}
+.navigation-address-list {
+}
+.navigation-address-list-item {
+}
+/* Header end */
+/* Hero section start */
+.hero-section {
+}
+.hero-section-title {
+}
+.hero-section-link {
+}
+/* Hero section end */
+/* Footer start */
+.footer {
+  background-color: #0d8a49;
+}
+.footer-logo-image:hover {
+  background-color: #24cc75;
+  border-radius: 10px;
+}

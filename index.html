@@ -3,21 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Онлайн свіваник Церкви Христової</title>
+    <title>Церква Христова в Вінниці</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="#"><img src="" alt="" />Церква Христова в м. Вінниця</a>
+    <header class="header" id="top">
+      <a href="./index.html" class="header-logo-link"
+        ><img
+          src="./images/logo.svg"
+          alt="Chirch of Christ logo"
+          width="100"
+          height="100"
+          class="header-logo-link-image"
+      /></a>
       <nav>
-        <ul>
-          <li><a href="">Пісні</a></li>
-          <li><a href="">Категорії</a></li>
-          <li><a href="">Улюблене</a></li>
-          <li><a href="">Про Церкву</a></li>
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a href="" class="navigation-list-item-link">Про Церкву</a>
+          </li>
+          <li class="navigation-list-item">
+            <a href="" class="navigation-list-item-link">Співник</a>
+          </li>
+          <li class="navigation-list-item">
+            <a href="" class="navigation-list-item-link">Наша Галерея</a>
+          </li>
+          <li>
+            <a href="" class="navigation-list-item-link">Пожертви</a>
+          </li>
         </ul>
       </nav>
+      <address class="navigation-address">
+        <ul class="navigation-address-list">
+          <li class="navigation-address-list-item">
+            <a href="mailto:churchvinnitsya@gmail.com"
+              >churchvinnytsya@gmail.com</a
+            >
+          </li>
+          <li class="navigation-address-list-item">
+            <a href="tel:+380000000000">+380-000-000-000</a>
+          </li>
+        </ul>
+      </address>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="hero-section">
+        <h1 class="hero-section-title">
+          Вас вітає Церква Христова у місті Вінниця!
+        </h1>
+        <a
+          href="https://www.google.com/maps/place/Obro%C5%84c%C3%B3w+Westerplatte+21,+81-706+Sopot/@54.4452876,18.5562523,17z/data=!3m1!4b1!4m6!3m5!1s0x46fd0a900192dd1d:0xd83d76327c5e9b3a!8m2!3d54.4452877!4d18.5611232!16s%2Fg%2F11tk92dwyt?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          class="hero-section-link"
+          >Покажи на карті</a
+        >
+      </section>
+      <section>
+        <h2>Завітайте до нас</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/sunday.svg"
+              alt="Іллюстрація Богослужіння"
+              width="100"
+              height="100"
+            />
+            <h3>Богослужіння</h3>
+            <p>Неділя о 10:00</p>
+          </li>
+          <li>
+            <img src="./images/wednesday.svg" alt="" width="120" height="120" />
+            <h3>Вивчення Біблії</h3>
+            <p>Середа о 17:00</p>
+          </li>
+          <li>
+            <img src="./images/prayer.svg" alt="" width="120" height="120" />
+            <h3>Молитовне Зібрання</h3>
+            <p>Пʼятниця о 17:00</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <hr />
+    <footer class="footer">
+      <a href="#top"
+        ><img
+          src="./images/logo.svg"
+          alt="Chirch of Christ logo"
+          width="100"
+          height="100"
+          class="footer-logo-image"
+      /></a>
+      <address>
+        <ul>
+          <li>
+            <a href="mailto:churchvinnitsya@gmail.com"
+              >churchvinnytsya@gmail.com</a
+            >
+          </li>
+          <li><a href="tel:+380000000000">+380-000-000-000</a></li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>

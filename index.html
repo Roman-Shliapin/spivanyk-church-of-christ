@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header" id="top">
+    <header class="header" id="top">
+      <div class="header-flexbox">
         <a href="./index.html" class="header-logo-link"
           ><img
             src="./images/logo.svg"
@@ -46,20 +46,22 @@
             </li>
           </ul>
         </nav>
-        <address class="navigation-address">
-          <ul class="navigation-address-list">
-            <li class="navigation-address-list-item">
-              <a href="mailto:churchvinnitsya@gmail.com"
-                >churchvinnytsya@gmail.com</a
-              >
-            </li>
-            <li class="navigation-address-list-item">
-              <a href="tel:+380000000000">+380-000-000-000</a>
-            </li>
-          </ul>
-        </address>
-      </header>
-    </div>
+        <div class="container-header-address">
+          <address class="navigation-address">
+            <ul class="navigation-address-list">
+              <li class="navigation-address-list-item">
+                <a href="mailto:churchvinnitsya@gmail.com"
+                  >churchvinnytsya@gmail.com</a
+                >
+              </li>
+              <li class="navigation-address-list-item">
+                <a href="tel:+380000000000">+380-000-000-000</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="hero-section">
         <div class="hero-section-container">
@@ -76,52 +78,68 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Завітайте до нас</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/sunday.svg"
-              alt="Іллюстрація Богослужіння"
-              width="100"
-              height="100"
-            />
-            <h3>Богослужіння</h3>
-            <p>Неділя о 10:00</p>
-          </li>
-          <li>
-            <img src="./images/wednesday.svg" alt="" width="120" height="120" />
-            <h3>Вивчення Біблії</h3>
-            <p>Середа о 17:00</p>
-          </li>
-          <li>
-            <img src="./images/prayer.svg" alt="" width="120" height="120" />
-            <h3>Молитовне Зібрання</h3>
-            <p>Пʼятниця о 17:00</p>
-          </li>
-        </ul>
+      <section class="schedule">
+        <h2 class="schedule-title">Завітайте до нас</h2>
+        <div class="schedule-list-container">
+          <ul class="schedule-list">
+            <li class="schedule-list-item">
+              <div class="first-item">
+                <img
+                  src="./images/sunday.svg"
+                  alt="Іллюстрація Богослужіння"
+                  width="100"
+                  height="100"
+                />
+                <h3>Богослужіння</h3>
+                <p>Неділя о 10:00</p>
+              </div>
+            </li>
+            <li class="schedule-list-item">
+              <img
+                src="./images/wednesday.svg"
+                alt=""
+                width="120"
+                height="120"
+              />
+              <h3>Вивчення Біблії</h3>
+              <p>Середа о 17:00</p>
+            </li>
+            <li class="schedule-list-item">
+              <img src="./images/prayer.svg" alt="" width="120" height="120" />
+              <h3>Молитовне Зібрання</h3>
+              <p>Пʼятниця о 17:00</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <hr />
     <footer class="footer">
-      <a href="#top"
-        ><img
-          src="./images/logo.svg"
-          alt="Chirch of Christ logo"
-          width="100"
-          height="100"
-          class="footer-logo-image"
-      /></a>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:churchvinnitsya@gmail.com"
-              >churchvinnytsya@gmail.com</a
-            >
-          </li>
-          <li><a href="tel:+380000000000">+380-000-000-000</a></li>
-        </ul>
-      </address>
+      <div class="footer-container">
+        <a href="#top"
+          ><img
+            src="./images/logo.svg"
+            alt="Chirch of Christ logo"
+            width="100"
+            height="100"
+            class="footer-logo-image"
+        /></a>
+        <p class="footer-text">
+          «Слово Христове нехай перебуває у вас рясно: навчайте й напоумляйте
+          один одного зо всякою мудрістю, співаючи в серцях ваших Богові псалми,
+          гімни і духовні пісні з вдячністю.» (Кол. 3:16, НУТ)
+        </p>
+        <address>
+          <ul class="footer-address-list">
+            <li>
+              <a href="mailto:churchvinnitsya@gmail.com"
+                >churchvinnytsya@gmail.com</a
+              >
+            </li>
+            <li><a href="tel:+380000000000">+380-000-000-000</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
